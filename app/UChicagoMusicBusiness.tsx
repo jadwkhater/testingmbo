@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect} from 'react';
 
 /*
   UChicago Music Business — Homepage
@@ -326,7 +326,7 @@ function Hero() {
                 fontSize: 18, fontStyle: 'italic', fontWeight: 400,
                 color: COLORS.cream, lineHeight: 1.5, marginBottom: 16,
               }}>
-                "A pre-professional community for music industry careers."
+                &quot;A pre-professional community for music industry careers.&quot;
               </p>
               <div style={{ display: 'flex', gap: 8 }}>
                 {[COLORS.maroon, COLORS.teal, COLORS.crimson].map(c => (

@@ -34,6 +34,7 @@ function AudioWaveformBackground() {
       { yOffset: 0,    opacity: 0.15, ampScale: 1.0,  numBars: 200, xOffset: 0    },
       { yOffset: 0,    opacity: 0.09, ampScale: 0.7,  numBars: 200, xOffset: 0.1 },
       { yOffset: 0,    opacity: 0.06, ampScale: 0.65, numBars: 100, xOffset: 0.4 },
+      { yOffset: 0,    opacity: 0.06, ampScale: 1.5, numBars: 150, xOffset: 0.8 },
     ];
 
     const draw = () => {
